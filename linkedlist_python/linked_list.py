@@ -24,7 +24,7 @@ class LinkedList:
 
     def peek(self):
         if self.head is None:
-            print "The Stack is empty(there is no elements)"
+            print "The Stack is empty( no elements)"
             return
         print "The top of the stack is: " + str(self.head.data)
 
